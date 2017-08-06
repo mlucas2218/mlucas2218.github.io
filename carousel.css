@@ -75,7 +75,7 @@ body {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-	background-image: url("bg.jpg");
+    background-image: url("https://mlucas2218.github.io/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
