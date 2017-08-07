@@ -126,13 +126,13 @@ body {
 	
     .carousel .item {
 	height: 250px;
-    }*/
+    }*
 	
     .parallax {
         background-attachment: scroll;
 	/*background-size: auto;*
-	background-position: top;*/
+	background-position: top;*
 	height: 350px;
 	padding-bottom: 40px;
-    }
+    }*/
 }
