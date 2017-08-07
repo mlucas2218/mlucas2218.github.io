@@ -130,6 +130,7 @@ body {
 	
     .carousel-caption {
 	top: 150px;
+	bottom: auto;
     }
 	
     .parallax {
