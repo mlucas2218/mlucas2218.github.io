@@ -61,10 +61,11 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 .marketing .col-md-4 {
   margin-bottom: 20px;
+  padding-top: 30px;
   text-align: center;
 }
 .marketing h2 {
@@ -118,7 +119,7 @@ body {
   }
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+/* Turn off parallax scrolling for tablets and phones. */
 @media only screen and (max-device-width: 767px) {	
     /*.carousel-caption {
 	top: 175px;
