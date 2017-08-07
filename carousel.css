@@ -133,5 +133,6 @@ body {
 	/*background-size: auto;*/
 	background-position: top;
 	height: 450px;
+	padding-bottom: 40px;
     }
 }
