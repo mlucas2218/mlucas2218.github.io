@@ -131,6 +131,7 @@ body {
     .parallax {
         background-attachment: scroll;
 	/*background-size: auto;*/
-	height: 350px;
+	background-position: top;
+	height: 450px;
     }
 }
