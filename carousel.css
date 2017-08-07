@@ -120,16 +120,15 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 767px) {	
-    .carousel-caption {
+    /*.carousel-caption {
 	top: 175px;
 	bottom: auto;
-    }
+    }*/
 	
     .parallax {
         background-attachment: scroll;
 	/*background-size: auto;*
 	background-position: top;*/
-	height: 350px;
-	/*padding-bottom: 40px;*/
+	/*height: 350px;*/
     }
 }
