@@ -14,36 +14,10 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* PARALLAX BACKGROUND SETTINGS
 -------------------------------------------------- */
 
-/* Carousel base class *
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption *
-.carousel-caption {
-  margin-bottom: 20px;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element *
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-/*.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}*/
-
-/* Parallax scrolling settings */
 .parallax {
-
     /* Set a specific height */
     height: 600px; 
 
@@ -60,7 +34,7 @@ body {
     position: absolute;
     left: 15%;
     right: 15%;
-    top: 400px;
+    top: 450px;
     text-align: center;
     z-index: 10;
 }
@@ -87,7 +61,7 @@ body {
 }
 
 
-/* Featurettes
+/* FEATURETTES
 ------------------------- */
 
 .featurette-divider {
@@ -105,15 +79,8 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+/* Increase font sizes for large windows */
 @media (min-width: 768px) {
-
-  /* Bump up size of carousel content *
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }*/
-
   .featurette-heading {
     font-size: 50px;
   }
@@ -129,17 +96,16 @@ body {
   }
 }
 
-/* Turn off parallax scrolling for tablets and phones. */
+/* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 767px) {	
-    /*.carousel-caption {
-	top: 175px;
-	bottom: auto;
-    }*/
-	
     .parallax {
         background-attachment: scroll;
 	/*background-size: auto;*
 	background-position: top;*/
-	/*height: 350px;*/
+	height: 350px;
+    }
+	
+    .parallax-caption {
+	top: 275px;
     }
 }
