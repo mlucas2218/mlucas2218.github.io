@@ -24,9 +24,9 @@ body {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-image: url("https://mlucas2218.github.io/images/bg.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 .parallax-caption {
     color: #fff;
