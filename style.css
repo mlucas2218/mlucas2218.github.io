@@ -26,7 +26,7 @@ body {
     background-image: url("https://mlucas2218.github.io/images/bg.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 .parallax-caption {
     color: #fff;
