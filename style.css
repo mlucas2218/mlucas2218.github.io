@@ -40,7 +40,7 @@ body {
 }
 
 
-/* MARKETING CONTENT
+/* MARKETING AND SECTIONS
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
@@ -59,21 +59,44 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-
-/* FEATURETTES
-------------------------- */
-
-.featurette-divider {
-  margin: 60px 0; /* Space out the Bootstrap <hr> more */
+.section {
+  padding: 15px;
+}
+.section-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.section-heading {
+  padding-bottom: 20px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: -1px;
+  text-align: center;
 }
+
+
+/* SKILLS
+------------------------- */
+
+
+/* PROJECTS
+------------------------- */
+.project .col-md-7,
+.project .col-md-5 {
+  padding: 15px;
+}
+.project-title {
+  font-size: 20px;
+}
+.project-subtitle {
+  font-size: 16px;
+  font-style: oblique;
+}
+
+
+/* CONNECT
+------------------------- */
 
 
 /* RESPONSIVE CSS
@@ -81,8 +104,14 @@ body {
 
 /* Increase font sizes for large windows */
 @media (min-width: 768px) {
-  .featurette-heading {
+  .section-heading {
     font-size: 50px;
+  }
+  .project-title {
+    font-size: 24px;
+  }
+  .project-subtitle {
+    font-size: 18px;
   }
   
   .parallax-caption h1 {
