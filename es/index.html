@@ -9,9 +9,7 @@
     <meta name="author" content="Melissa Lucas">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/65d1bcf15f.js"></script>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="alternate" hreflang="en" href="https://mlucas2218.github.io/index.html" />
-    <link rel="alternate" hreflang="es" href="https://mlucas2218.github.io/es/index.html" />
+    <link rel="stylesheet" href="../carousel.css">
     
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
@@ -30,7 +28,7 @@
   <body>
   
     <!-- Section 1 -->
-    <div class="parallax">
+    <div id="section1" class="parallax">
       <div class="container">
         <div class="parallax-caption" id="header">
           <h1>MELISSA LUCAS</h1>
@@ -46,39 +44,77 @@
     <div class="container marketing">
     
       <!-- SKILLS (3 COLUMNS) -->
-      <div class="row" id="skills">
+      <div class="section row" id="skills">
         <div class="col-md-4">
-          <img class="img-circle" src="../images/melissa.jpg" alt="Melissa" width="140" height="140">
+          <img class="img-circle" src="../images/melissa.jpg" alt="Yo" width="140" height="140">
           <h2>programadora</h2>
           <p>Soy experta en C#, CSS, HTML, Java, PL/SQL y SAP ABAP, con experiencia pasada en <a target="_blank" href="https://www.qbsol.com">Quorum Business Solutions</a> y una licenciatura en Matemática Computacional y Aplicada de <a target="_blank" href="http://www.rice.edu">Rice University</a>.</p>
         </div><!-- /.col-md-4 -->
         <div class="col-md-4">
-          <img class="img-circle" src="../images/selvista.jpg" alt="Una lujosa casa del árbol" width="140" height="140">
+          <img class="img-circle" src="../images/selvista.jpg" alt="Una lujosa casa del árbol que ayudé a construir" width="140" height="140">
           <h2>empresaria</h2>
-          <p>Co-fundé, manejé y desarrollé un sitio web para <a target="_blank" href="http://selvistaguesthouses.com">Selvista Guesthouses</a>, una colección de casas para huéspedes en la jungla de la Isla de Ometepe, Nicaragua.  Durante los primeros 15 meses de operaciones, construimos tres casas de lujo y recibimos más de 140 reseñas de cinco estrellas.</p>
+          <p>Co-fundé y manejé <a target="_blank" href="http://selvistaguesthouses.com">Selvista Guesthouses</a>, una colección de casas para huéspedes en la jungla de la Isla de Ometepe, Nicaragua.  Durante los primeros 15 meses de operaciones, construimos tres casas de lujo y recibimos más de 140 reseñas de cinco estrellas.</p>
         </div><!-- /.col-md-4 -->
         <div class="col-md-4">
           <img class="img-circle" src="../images/travel.jpg" alt="Una foto del mundo" width="140" height="140">
           <h2>viajera mundial</h2>
-          <p>Habiendo vivido en cuatro países diferentes, hablo inglés y español perfectamente y frecuentemente practico diseño gráfico y fotografía utilizando Adobe InDesign, Lightroom y Photoshop.</p>
+          <p>Con experiencia de vivir en cuatro países diferentes, hablo inglés y español y frecuentemente practico diseño gráfico y fotografía utilizando Adobe InDesign, Lightroom y Photoshop.</p>
         </div><!-- /.col-md-4 -->
       </div><!-- /.row -->
       
-      <hr class="featurette-divider">
+      <hr class="section-divider">
+      
+      <!-- PROJECTS -->
+      <div class="section" id="projects">
+        <h2 class="section-heading">Projects</h2>
+      
+        <div class="project row" id="project-selvista">
+          <div class="col-md-7 col-md-push-5">
+            <h3 class="project-title">Selvista Guesthouses</h3>
+            <h4 class="project-subtitle">Desarrollado con Drupal y personalizado con HTML5, CSS3, PHP</h4>
+            <p class="lead">Una colección de casas lujosas de huéspedes en una reforestada finca orgánica en la Isla de Ometepe, Nicaragua.  Co-fundé este hospedaje y negocio y manejé todas las operaciones desde 2015-2017.</p>
+            <div class="text-center">
+              <a href="http://selvistaguesthouses.com/es/" target="_blank" class="btn btn-primary" role="button">Visitar al sitio web</a>
+            </div>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="images/project-selvista.png" alt="Vista previa del diseño del sitio web"> <!--data-src=""-->
+          </div>
+        </div><!-- /.project -->
+        
+        <hr class="section-divider">
+        
+        <div class="project row" id="project-course">
+          <div class="col-md-7">
+            <h3 class="project-title">Mindful Living: Real Food and Holistic Wellness for Young Adults</h3>
+            <h4 class="project-subtitle">Desarrollado con HTML5, CSS3, Bootstrap framework</h4>
+            <p class="lead">Un curso de 1 crédito que diseñé y enseñé en Rice University, inspirando a otros estudiantes a examinar críticamente los recursos del bienestar holístico y hacer elecciones informadas con el presupuesto de un estudiante universitario.</p>
+            <div class="text-center">
+              <a href="http://htmlpreview.github.io/?https://github.com/mlucas2218/mindful-living-course/blob/master/index.html" target="_blank" class="btn btn-primary" role="button">Visitar al sitio web</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="images/project-mindful-living.png" alt="Vista previa del diseño del sitio web"> <!--data-src=""-->
+          </div>
+        </div><!-- /.project -->
+        
+      </div><!-- /.section -->
+      
+      <hr class="section-divider">
     
       <!-- CONNECT -->
-      <div class="text-center" id="connect">
-        <h2 class="featurette-heading">Conectar</h2>
+      <div class="section text-center" id="connect">
+        <h2 class="section-heading">Conectar</h2>
         <p class="lead"><a target="_blank" href="https://www.freecodecamp.org/mlucas2218"><i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://github.com/mlucas2218"><i class="fa fa-github fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.hackerrank.com/mlucas2218"><i class="fa fa-trophy fa-3x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/mlucas2218"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></p>
         <p class="lead"><a href="mailto:mlucas2218@gmail.com">mlucas2218@gmail.com</a></p>
       </div>
   
-      <hr class="featurette-divider">
+      <hr class="section-divider">
     
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Volver arriba</a></p>
-        <p>&copy; 2017 Melissa Lucas &middot; <a href="../index.html" lang="en" hreflang="en">English</a></p>
+        <p class="pull-right"><a href="#">Al inicio</a></p>
+        <p>&copy; 2017 Melissa Lucas &middot; <a href="../index.html" lang="en" hreflang="en" ref="alternate">English</a></p>
       </footer>
       
     </div><!-- /.container.marketing -->
