@@ -43,17 +43,7 @@ var quoteArrayFr = [{id: 0, message: "Garder le corps en bonne santé est un dev
                     {id: 1, message: "Je ne mesure pas le succès d'un Homme à la hauture à laquelle il grimpe, mais à celle à laquelle il rebondit après avoir touché le fond.", author: "George S. Patton"},
                     {id: 2, message: "Les bonnes choses viennent à ceux qui savent attendre, mais les grandes choses viennent à ceux qui se lèvent et qui font tout pour y arriver.", author: "Anonyme"},
                     {id: 3, message: "Nous sommes ce qui nous faisons de manière répétée. L'excellence n'est donc pas une action, mais une habitude.", author: "Aristotle"},
-                    {id: 4, message: "Tu dois abandonner la vie que tu as planifiée pour pouvoir vivre la vie qui t'attend.", author: "Joseph Campbell"},
-                    {id: 5, message: "You cannot solve a problem from the same consciousness that created it. You must learn to see the world anew.", author: "Albert Einstein"},
-                    {id: 6, message: "Challenges are what make life interesting, and overcoming them is what makes life meaningful.", author: "Joshua J. Marine"},
-                    {id: 7, message: "Life is either a great adventure or nothing.", author: "Helen Keller"},
-                    {id: 8, message: "And at the end of the day, your feet should be dirty, your hair messy, and your eyes sparkling.", author: "Shanti"},
-                    {id: 9, message: "It is only in adventure that some people succeed in knowing themselves, in finding themselves.", author: "Andre Gide"},
-                    {id: 10, message: "A man travels the world over in search of what he needs, and returns home to find it.", author: "George Moore"},
-                    {id: 11, message: "The most important things in life aren't things.", author: "Anonymous"},
-                    {id: 12, message: "Remember that the happiest people are not those getting more, but those giving more.", author: "H. Jackson Brown, Jr."},
-                    {id: 13, message: "Difficulties strengthen the mind, as labor does the body.", author: "Lucius Annaeus Seneca"},
-                    {id: 14, message: "Be the change you wish to see in the world.", author: "Mahatma Gandhi"}];
+                    {id: 4, message: "Tu dois abandonner la vie que tu as planifiée pour pouvoir vivre la vie qui t'attend.", author: "Joseph Campbell"}];
 var quoteArray = quoteArrayEn;
 
 /* Function: Display Random Quote */
