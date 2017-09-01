@@ -43,7 +43,17 @@ var quoteArrayFr = [{id: 0, message: "Garder le corps en bonne santé est un dev
                     {id: 1, message: "Je ne mesure pas le succès d'un Homme à la hauture à laquelle il grimpe, mais à celle à laquelle il rebondit après avoir touché le fond.", author: "George S. Patton"},
                     {id: 2, message: "Les bonnes choses viennent à ceux qui savent attendre, mais les grandes choses viennent à ceux qui se lèvent et qui font tout pour y arriver.", author: "Anonyme"},
                     {id: 3, message: "Nous sommes ce qui nous faisons de manière répétée. L'excellence n'est donc pas une action, mais une habitude.", author: "Aristotle"},
-                    {id: 4, message: "Tu dois abandonner la vie que tu as planifiée pour pouvoir vivre la vie qui t'attend.", author: "Joseph Campbell"}];
+                    {id: 4, message: "Tu dois abandonner la vie que tu as planifiée pour pouvoir vivre la vie qui t'attend.", author: "Joseph Campbell"},
+                    {id: 5, message: "On ne peut pas résoudre un problème avec les mêmes modes de pensée qui l'ont engendré.  Il faut voir le monde de nouveau.", author: "Albert Einstein"},
+                    {id: 6, message: "Les défis sont ce qui rend la vie intéressante, et les surmonter, c'est ce qui lui donne un sens.", author: "Joshua J. Marine"},
+                    {id: 7, message: "La vie est une aventure audacieuse ou elle n'est rien.", author: "Helen Keller"},
+                    {id: 8, message: "Et à la fin de la journée, vos pieds devraient être sales, vos cheveux désordénnes et vos yeux étincelants.", author: "Shanti"},
+                    {id: 9, message: "C'est seulement dans l'aventure que certaines personnes  parviennent à se connaître eux-mêmes, à se retrouver elles-mêmes.", author: "Andre Gide"},
+                    {id: 10, message: "Un homme voyage pour autour du monde à la recherche de ce dont il a besoin, et il rentre chez soi pour le trouver.", author: "George Moore"},
+                    {id: 11, message: "Les choses les plus importantes dans notre vie ne sont pas des choses.", author: "Anonyme"},
+                    {id: 12, message: "Rappelez-vous que les gens les plus heureux du monde ne sont pas ceux qui obtenant plus, mais ceux qui donnant plus.", author: "H. Jackson Brown, Jr."},
+                    {id: 13, message: "Les difficultés renforcent l'esprit, tout comme le travail renforce le corps.", author: "Lucius Annaeus Seneca"},
+                    {id: 14, message: "Sois le changement que tu veux voir dans le monde", author: "Mahatma Gandhi"}];
 var quoteArray = quoteArrayEn;
 
 /* Function: Display Random Quote */
