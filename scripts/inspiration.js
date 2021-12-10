@@ -82,7 +82,7 @@ function displayRandomQuote() {
 /* Function: Translate Page to English */
 function translatePageToEnglish() {
   $("#title").html("Bite-Size Inspiration");
-  $("#subtitle").html("Fill up on your daily inspiration, right here and now.")
+  $("#subtitle").html("Fill up on your daily inspiration with this mini-project for practicing languages.")
   $("#get-quote").html("Tell me another");
   $("#translate-english").hide();
   $("#translate-spanish").show();
@@ -95,7 +95,7 @@ function translatePageToEnglish() {
 /* Function: Translate Page to Spanish */
 function translatePageToSpanish() {
   $("#title").html("Bocaditos de inspiración");
-  $("#subtitle").html("Llenáte con inspiración al día, aquí y ahora mismo.")
+  $("#subtitle").html("Llenáte con inspiración al día con este pequeño proyecto para practicar idiomas.")
   $("#get-quote").html("Decíme otra");
   $("#translate-english").show();
   $("#translate-spanish").hide();
@@ -108,7 +108,7 @@ function translatePageToSpanish() {
 /* Function: Translate Page to French */
 function translatePageToFrench() {
   $("#title").html("Les petits motifs d'inspiration");
-  $("#subtitle").html("Remplis-toi avec l'inspiration du jour, ici même et maintenant.")
+  $("#subtitle").html("Remplis-toi avec l'inspiration du jour avec ce petit projet pour pratiquer les langues.")
   $("#get-quote").html("Dis-moi un autre");
   $("#translate-english").show();
   $("#translate-spanish").show();
